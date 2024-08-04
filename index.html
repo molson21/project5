@@ -29,7 +29,7 @@
             
             body {
                 background-image: url("dark-grey-terrazzo.png");
-                background-color: ghostwhite;
+                background-color: black;
                 font-family: 'Montserrat', sans-serif;
             }
             
@@ -75,38 +75,28 @@
                 margin-bottom: 50px;
             }
             
-            #fth {
-                width: 560px;
-                height: auto;
-                border-style: none solid none solid;
-                border-color: navy;
-                border-width: 50px;
-                margin: 0 auto 40px;
-                padding: 10px;
-                line-height: 1.5em;
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
             }
             
-            #gloves {
-                align-content: center;
-                width: 560px;
-                height: auto;
-                border-style: none solid none solid;
-                border-color: navy;
-                border-width: 50px;
-                margin: 0 auto 40px;
-                padding: 10px;
-                line-height: 1.5em;
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
             }
             
-            #th {
-                align-content: center;
-                width: 560px;
-                height: auto;
+            #fth, #gloves, #th {
                 border-style: none solid none solid;
                 border-color: navy;
                 border-width: 50px;
-                margin: 0 auto 20px;
-                padding: 10px;
+                margin: 40px 50px;
+                padding: 0px 15px;
                 line-height: 1.5em;
             }
             
@@ -143,28 +133,34 @@
             
             <h2 id="enjoy">- Enjoy some time with Imogen Heap on YouTube -</h2>
         </div>
-            <div id="fth">   
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/29jJWO_1JBQ?si=ssmGWpB1AtTNvWLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <br>
-                <h3>Imogen Heap - First Train Home (Immi's Party Version)</h3>
-                 <cite>ImogenHeapVEVO. “Imogen Heap - First Train Home (Immi’s Party Version).” YouTube, 20 Dec. 2010,  <a href="www.youtube.com/watch?v=e6KPc5RkWCA" target="_blank">www.youtube.com/watch?v=e6KPc5RkWCA.</a></cite>
-                <p>I can't pinpoint exactly when I fell in love with Imogen Heap, but I know I'm obsessed with her music and artistry. I can put her songs on repeat and lose myself in singing along. I've been fortunate enough to see her live twice, and each concert was incredibly memorable. She connects with her audience on a personal level, drawing you into every note.</p>
+            <div id="fth">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/29jJWO_1JBQ?si=ssmGWpB1AtTNvWLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                    <br>
+                    <h3>Imogen Heap - First Train Home (Immi's Party Version)</h3>
+                    <cite>ImogenHeapVEVO. “Imogen Heap - First Train Home (Immi’s Party Version).” YouTube, 20 Dec. 2010,  <a href="www.youtube.com/watch?v=e6KPc5RkWCA" target="_blank">www.youtube.com/watch?v=e6KPc5RkWCA.</a></cite>
+                    <p>I can't pinpoint exactly when I fell in love with Imogen Heap, but I know I'm obsessed with her music and artistry. I can put her songs on repeat and lose myself in singing along. I've been fortunate enough to see her live twice, and each concert was incredibly memorable. She connects with her audience on a personal level, drawing you into every note.</p>
             </div> 
             
-            <div id="gloves">   
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wXpkLWQqETY?si=6a5khHCQclEVpHhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <br>
-                <h3>AHRC Gloves Performance</h3>
-                 <cite>Imogen Heap. “AHRC Gloves Performance.” YouTube, 17 Mar. 2017,  <a href="www.youtube.com/watch?v=wXpkLWQqETY" target="_blank">www.youtube.com/watch?v=wXpkLWQqETY.</a></cite>
-                <p>I've watched numerous videos on the development of these gloves and have been fascinated by Imogen's ability to collaborate with the creators to develop a working model. At the last concert I attended, she performed with them live, and it was like watching a magician at work. The freedom this technology offers an artist is truly incredible.</p>
+            <div id="gloves">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wXpkLWQqETY?si=6a5khHCQclEVpHhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                    <br>
+                    <h3>AHRC Gloves Performance</h3>
+                    <cite>Imogen Heap. “AHRC Gloves Performance.” YouTube, 17 Mar. 2017,  <a href="www.youtube.com/watch?v=wXpkLWQqETY" target="_blank">www.youtube.com/watch?v=wXpkLWQqETY.</a></cite>
+                    <p>I've watched numerous videos on the development of these gloves and have been fascinated by Imogen's ability to collaborate with the creators to develop a working model. At the last concert I attended, she performed with them live, and it was like watching a magician at work. The freedom this technology offers an artist is truly incredible.</p>
             </div> 
             
-            <div id="th">   
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/QKiZJCFYAbg?si=ZGuJH-eApIpz0W82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <br>
-                <h3>Imogen Heap - Tiny Human</h3>
-                <cite>Imogen Heap. “Imogen Heap - Tiny Human.” YouTube, 3 Oct. 2015, <a href="https://www.youtube.com/watch?v=QKiZJCFYAbg" target="_blank">www.youtube.com/watch?v=QKiZJCFYAbg.</a></cite>
-                <p>"During a hack weekend I put together Oct 2015 to explore what could be done with music and blockchains, Tiny Human was originally released. Teams formed and much fun was had. It sold 222 copies and was the first piece of music sold on the Ethereum blockchain using smart contracts to pay the musicians and the mastering engineer directly." - Imogen Heap</p>
+            <div id="th">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QKiZJCFYAbg?si=ZGuJH-eApIpz0W82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                    <br>
+                    <h3>Imogen Heap - Tiny Human</h3>
+                    <cite>Imogen Heap. “Imogen Heap - Tiny Human.” YouTube, 3 Oct. 2015, <a href="https://www.youtube.com/watch?v=QKiZJCFYAbg" target="_blank">www.youtube.com/watch?v=QKiZJCFYAbg.</a></cite>
+                    <p>"During a hack weekend I put together Oct 2015 to explore what could be done with music and blockchains, Tiny Human was originally released. Teams formed and much fun was had. It sold 222 copies and was the first piece of music sold on the Ethereum blockchain using smart contracts to pay the musicians and the mastering engineer directly." - Imogen Heap</p>
             </div> 
             
             
